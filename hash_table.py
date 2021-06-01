@@ -68,9 +68,3 @@ class HashTable:
             else:
                 print(f"   [{i}] {val}")
         print("}")
-
-ht = HashTable(4)
-ht.add_key_value("dog", "there")
-ht.add_key_value("hi", "there")
-ht.add_key_value("hi", "there")
-ht.print_table()
