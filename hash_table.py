@@ -66,7 +66,7 @@ class HashTable:
                 else:
                     print(f"   [{i}] {val.data.key} : {val.data.value}")
             else:
-                print(f"    [{i}] {val}")
+                print(f"   [{i}] {val}")
         print("}")
 
 ht = HashTable(4)
